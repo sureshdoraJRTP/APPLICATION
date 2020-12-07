@@ -1,0 +1,35 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: Dorasuresh@2
+    url: jdbc:oracle:thin:@localhost:1521/XE
+    username: SYSTEM
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+      
+  mail:
+    host: smtp.gmail.com
+    username: asureshdora22@gmail.com
+    password: Dorasuresh@2
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            trust: smtp.gmail.com
+          tls: true
+            

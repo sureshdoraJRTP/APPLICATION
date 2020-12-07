@@ -1,0 +1,13 @@
+Hi {FNAME}, {LNAME} :
+<br/>
+Welcome to IES family,
+Congratulatiosn!You are appointed as a {WORKER} in DHS Office.
+Plese use below details to login your account.<br/>
+<br/>
+Password : {PWD}<br/>
+<br/>Click Here To
+<a href='http://localhost:5050/login'>
+ Login </a>Your Account <br/>
+<br/>
+Thanks & Regards,<br/>
+IES Family.<br/>
